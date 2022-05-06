@@ -5,8 +5,8 @@
     "description": "## Project setup ``` npm install ```",
     "author": "Me",
     "scripts": {
-        "pug": "pug --watch src/pug/index.pug --pretty --out public/index.html",
-        "sass": "sass --watch src/sass/style.sass public/style.css",
+        "pug": "pug --watch src/pug/ --pretty --out public/pages",
+        "sass": "sass --watch src/sass:public/styles",
         "serve": "vue-cli-service serve",
         "build": "vue-cli-service build",
         "lint": "vue-cli-service lint"

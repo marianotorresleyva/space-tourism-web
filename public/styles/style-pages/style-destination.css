@@ -105,10 +105,10 @@ main section.info p em {
   line-height: 1.35em;
 }
 main section.figure {
-  flex: 1 2 8em;
+  flex: 1 3;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style-destination.css.map */
