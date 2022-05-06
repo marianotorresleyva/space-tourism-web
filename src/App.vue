@@ -1,18 +1,14 @@
 <template>
-  <div id="app">
-    <img
-      @mouseenter="display"
-      @mouseleave="display"
-      alt="Vue logo"
-      src="./assets/logo.png"
-    />
-    <header-menu>
-      <template v-slot:header>
-        <h2>Here might be a page title</h2>
-      </template>
-    </header-menu>
+  <main id="app">
+    <!-- <img
+            @mouseenter="display"
+            @mouseleave="display"
+            alt="Vue logo"
+            src="./assets/logo.png"
+        /> -->
+    <header-menu />
     <HelloWorld v-show="showUp" msg="Hello world" />
-  </div>
+  </main>
 </template>
 
 <script>
@@ -39,12 +35,23 @@ export default {
 </script>
 
 <style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+
+  /* margin-top: 60px;jj */
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./assets/technology/background-technology-desktop.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 </style>
