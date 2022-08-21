@@ -1,41 +1,40 @@
 {
-    "name": "web-space-tourism",
-    "version": "0.1.0",
-    "private": true,
-    "description": "## Project setup ``` npm install ```",
-    "author": "Me",
-    "scripts": {
-        "pug": "pug --watch src/pug/pages --pretty --out public/pages",
-        "sass": "sass --watch src/sass:public/styles",
-        "serve": "vue-cli-service serve",
-        "build": "vue-cli-service build",
-        "lint": "vue-cli-service lint"
-    },
-    "main": ".eslintrc.js",
-    "dependencies": {
-        "core-js": "^3.6.5",
-        "tailwindcss": "^1.1.2",
-        "vue": "^2.6.11"
-    },
-    "devDependencies": {
-        "@ianaya89/vue-cli-plugin-tailwind": "~1.1.0",
-        "@vue/cli-plugin-babel": "~4.5.0",
-        "@vue/cli-plugin-eslint": "~4.5.0",
-        "@vue/cli-service": "~4.5.0",
-        "@vue/eslint-config-prettier": "^6.0.0",
-        "babel-eslint": "^10.1.0",
-        "eslint": "^6.7.2",
-        "eslint-plugin-prettier": "^3.3.1",
-        "eslint-plugin-vue": "^6.2.2",
-        "prettier": "^2.2.1",
-        "pug": "^3.0.2",
-        "pug-cli": "^1.0.0-alpha6",
-        "sass": "^1.45.1",
-        "serve": "^13.0.2",
-        "vue-template-compiler": "^2.6.11"
-    },
-    "keywords": [
-        "vue"
+  "name": "space-tourism-site",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "styled-components": "^5.3.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
     ],
-    "license": "MIT"
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
