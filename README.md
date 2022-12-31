@@ -1,8 +1,8 @@
-# Space tourism Web [![Button.png](https://i.postimg.cc/zvTsvrq1/Button.png)](https://space-tourism-web-project.herokuapp.com/)
+# Space tourism Web [![Button.png](https://i.postimg.cc/zvTsvrq1/Button.png)](https://space-tourism-web-weld.vercel.app/)
 
 ---
 
-[![Button.png](https://i.postimg.cc/SKSYwGNG/preview.jpg)](https://space-tourism-web-project.herokuapp.com/)
+[![Button.png](https://i.postimg.cc/SKSYwGNG/preview.jpg)](https://space-tourism-web-weld.vercel.app/)
 
 ## SKILLS
 
